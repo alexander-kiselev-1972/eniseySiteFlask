@@ -1,0 +1,63 @@
+h3{
+    color: coral;
+    background-color: lawngreen;
+}
+
+.fon {
+    background-image: url("../img/fon_1.png");
+}
+
+
+.menu li {
+    list-style-type: none;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid #000;
+    float: left;
+
+}
+
+
+.menu li a:hover{
+    color: red;
+    outline: 2px solid red;
+
+
+}
+
+.menu li a:active{
+    color: green;
+}
+
+
+
+
+.menu a {
+    width: 100%;
+    display: inline-block;
+    height: 70px;
+    background-color: darkgray;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    #margin-top: 50px;
+    float: left;
+    #outline: 1px solid black;
+}
+
+.logo:hover{
+    outline: 1px solid black;
+}
+
+.logo p{
+    text-align: center;
+}
+
+.footer{
+    background-color: #ccc;
+    overflow: hidden;
+}
